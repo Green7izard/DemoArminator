@@ -16,6 +16,7 @@ using namespace Robot;
 bool shouldStopException(exception& e) {
     string command;
     cout << "An error occured: " << e.what() << endl;
+    cout << "Make sure that the processing simulation has started!" << endl;
     cout << "Retry? (y/n)" << endl;
     cin >> command;
     cout << endl;

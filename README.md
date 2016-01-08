@@ -5,6 +5,8 @@ Contains code for simulating the Melfa rv-2aj and can even control the Melfa rv-
 Contains the C++ code!
 Create a new project from Visual Studio with the: "Create project from existing sources" option!
 Place the new project in the %CurrentLocation%\VisualStudio\DemoArminator !
+Import the project as a Visual C++ project.
+As the ProjectType select: "Console application project".
 And make sure it compiles!
 Use other compilers at your own risk!
 

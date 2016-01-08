@@ -30,7 +30,7 @@ namespace Robot
         if (connect(connection, (SOCKADDR *)&target, sizeof(target)) == SOCKET_ERROR)
         {
             //Couldn't connect
-            throw new std::ios_base::failure("Could not connect to target");
+            throw new std::ios_base::failure("Could not connect to the Simulation! Make sure it has started!");
         }
     }
 
