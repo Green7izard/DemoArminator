@@ -3,4 +3,9 @@ Workshop code for the "Iets Technisch 1" group!
 
 Contains the C++ code!
 Create a new project from Visual Studio with the: "Create project from existing sources" option!
-Use other compilers at your own risk!
+Place the new project in the %CurrentLocation%\VisualStudio\DemoArminator !
+And make sure it compiles!
+Use other compilers at your own1 risk!
+
+Also contains the code to simulate the robot in the "Simulatie" folder.
+Select the 32 or 64 bit executable and make sure it starts!
