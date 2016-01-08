@@ -183,6 +183,7 @@ void handleMessage(String buffer) {
   if(robotSerial != null){
     robotSerial.write(buffer);
   }
+    lastText = "";
   println("handleMessage: " + buffer);
   int startIdx = buffer.indexOf("PRN");
   int endIdx = buffer.indexOf(",");
