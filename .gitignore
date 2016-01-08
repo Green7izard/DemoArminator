@@ -26,3 +26,28 @@
 *.exe
 *.out
 *.app
+
+# Word temp files
+**/~$*
+# Other temp files
+**/~*.tmp
+
+*.lock
+
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+**/*.sdf
+VisualStudio/**/Debug/*
+VisualStudio/**/Release/*
+VisualStudio/**/x64/*
+VisualStudio/**/packages/*
+VisualStudio/**/ipch/*
+*.opensdf
+
+*.vcxproj.user
+*.aps
+Visual Studio/**/packages/*
+Cosimir/RV-2AJ/RV-2AJ.INI
+*RV-2AJ.INI
