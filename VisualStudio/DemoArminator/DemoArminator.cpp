@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "TCPRobot.hpp"
 #include "RobotControl.hpp"
-#include "Trajectory.hpp"
+#include "Vector.hpp"
 #include "RobotPositionSetter.cpp"
 #include <sstream>
 
@@ -72,7 +72,6 @@ void commandHandler()
             }
         }
     } while (controller == nullptr || robot == nullptr);
-    controller->start();
 
     RobotPositionSetter setter;
     cout << "Waiting for the next command! Choose the coordinate in the processing screen!" << endl;
