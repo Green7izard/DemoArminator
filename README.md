@@ -1,5 +1,6 @@
 # DemoArminator
 Workshop code for the "Iets Technisch 1" group!
+Contains code for simulating the Melfa rv-2aj and can even control the Melfa rv-2aj Robotarm.
 
 Contains the C++ code!
 Create a new project from Visual Studio with the: "Create project from existing sources" option!
